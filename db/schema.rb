@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(version: 2019_04_25_100650) do
     t.string "title"
     t.text "text"
     t.integer "star"
+    t.string "before_image"
+    t.string "after_image"
     t.integer "practitioner_id"
     t.integer "user_id"
     t.datetime "created_at", null: false

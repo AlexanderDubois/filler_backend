@@ -4,6 +4,8 @@ class CreateReviews < ActiveRecord::Migration[5.2]
       t.string :title
       t.text :text
       t.integer :star
+      t.string :before_image
+      t.string :after_image
       t.integer :practitioner_id
       t.integer :user_id
 
